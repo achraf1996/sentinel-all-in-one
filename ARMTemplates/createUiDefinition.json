@@ -228,7 +228,7 @@
             "location": "[location()]",
             "enableFusionAlert": "[steps('analyticsRules').enableFusionAlert]",
             "enableMicrosoftAlerts": "[steps('analyticsRules').enableMicrosoftAlerts]",
-            "enableMLAlerts": "[steps('analyticsRules').enableMLAlerts]",
+            "enableMLAlerts": "false",
             "enableScheduledAlerts": "[steps('analyticsRules').enableScheduledAlerts]"
         }
     }
